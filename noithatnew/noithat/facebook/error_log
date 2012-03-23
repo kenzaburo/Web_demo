@@ -1,0 +1,22 @@
+[09-Jun-2010 11:18:21] PHP Fatal error:  Uncaught CurlException: 3: No URL set!
+  thrown in /home/noithath/public_html/noithat/facebook/facebook.php on line 509
+[09-Jun-2010 11:19:18] PHP Fatal error:  Uncaught CurlException: 3: No URL set!
+  thrown in /home/noithath/public_html/noithat/facebook/facebook.php on line 509
+[09-Jun-2010 11:46:44] PHP Parse error:  syntax error, unexpected '}' in /home/noithath/public_html/noithat/facebook/index.php on line 56
+[09-Jun-2010 14:56:30] PHP Warning:  Invalid argument supplied for foreach() in /home/noithath/public_html/noithat/facebook/index.php on line 19
+[09-Jun-2010 14:57:01] PHP Warning:  Invalid argument supplied for foreach() in /home/noithath/public_html/noithat/facebook/index.php on line 19
+[14-Oct-2010 15:02:46] CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+[14-Oct-2010 15:02:46] PHP Fatal error:  Uncaught CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+  thrown in /home/noithath/public_html/noithat/facebook/src/facebook.php on line 614
+[14-Oct-2010 15:03:15] CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+[14-Oct-2010 15:03:15] PHP Fatal error:  Uncaught CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+  thrown in /home/noithath/public_html/noithat/facebook/src/facebook.php on line 614
+[14-Oct-2010 15:45:17] CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+[14-Oct-2010 15:45:17] PHP Fatal error:  Uncaught CurlException: 6: Couldn't resolve host 'graph.facebook.com'
+  thrown in /home/noithath/public_html/noithat/facebook/src/facebook.php on line 614
+[18-Oct-2010 10:35:30] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Couldn't resolve host name in /home/noithath/public_html/noithat/facebook/index.php on line 24
+[18-Oct-2010 10:35:30] PHP Warning:  file_get_contents(https://graph.facebook.com/me/friends?access_token=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: operation failed in /home/noithath/public_html/noithat/facebook/index.php on line 24
+[18-Oct-2010 10:35:35] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Couldn't resolve host name in /home/noithath/public_html/noithat/facebook/index.php on line 24
+[18-Oct-2010 10:35:35] PHP Warning:  file_get_contents(https://graph.facebook.com/me/friends?access_token=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: operation failed in /home/noithath/public_html/noithat/facebook/index.php on line 24
+[18-Oct-2010 11:00:09] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Couldn't resolve host name in /home/noithath/public_html/noithat/facebook/index.php on line 24
+[18-Oct-2010 11:00:09] PHP Warning:  file_get_contents(https://graph.facebook.com/me/friends?access_token=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: operation failed in /home/noithath/public_html/noithat/facebook/index.php on line 24

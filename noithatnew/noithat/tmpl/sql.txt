@@ -1,0 +1,334 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.6
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Nov 24, 2009 at 05:25 PM
+-- Server version: 5.0.51
+-- PHP Version: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `noithat`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_bed`
+--
+
+CREATE TABLE `p_bed` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `p_bed`
+--
+
+INSERT INTO `p_bed` (`ID`, `Name`, `Description`, `Price`, `Image`, `CreateDate`, `LastUpdate`, `IsDeleted`) VALUES
+(1, 'bed1', 'bed1', 0, 'bep10.jpg', '2009-11-24 17:24:10', '2009-11-24 17:24:10', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_bestseller`
+--
+
+CREATE TABLE `p_bestseller` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_bestseller`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_bookself`
+--
+
+CREATE TABLE `p_bookself` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_bookself`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_cabinet_coat`
+--
+
+CREATE TABLE `p_cabinet_coat` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_cabinet_coat`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_cabinet_cooker`
+--
+
+CREATE TABLE `p_cabinet_cooker` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_cabinet_cooker`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_cabinet_shoe`
+--
+
+CREATE TABLE `p_cabinet_shoe` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_cabinet_shoe`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_cabinet_television`
+--
+
+CREATE TABLE `p_cabinet_television` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_cabinet_television`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_chair`
+--
+
+CREATE TABLE `p_chair` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_chair`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_door`
+--
+
+CREATE TABLE `p_door` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_door`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_marquetry`
+--
+
+CREATE TABLE `p_marquetry` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `p_marquetry`
+--
+
+INSERT INTO `p_marquetry` (`ID`, `Name`, `Description`, `Price`, `Image`, `CreateDate`, `LastUpdate`, `IsDeleted`) VALUES
+(1, 'mar1', 'mar1', 0, 'bep2.jpg', '2009-11-24 17:11:11', '2009-11-24 17:11:11', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_relax`
+--
+
+CREATE TABLE `p_relax` (
+  `ID` int(4) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Content` text,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `p_relax`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_sofa`
+--
+
+CREATE TABLE `p_sofa` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `p_sofa`
+--
+
+INSERT INTO `p_sofa` (`ID`, `Name`, `Description`, `Price`, `Image`, `CreateDate`, `LastUpdate`, `IsDeleted`) VALUES
+(1, 'sofa2', 'sofa2', 0, 'bep10.jpg', '2009-11-24 17:10:42', '2009-11-24 17:10:42', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `p_table`
+--
+
+CREATE TABLE `p_table` (
+  `ID` int(10) NOT NULL auto_increment,
+  `Name` varchar(255) default NULL,
+  `Description` varchar(255) default NULL,
+  `Price` int(10) default NULL,
+  `Image` varchar(100) NOT NULL,
+  `CreateDate` datetime default NULL,
+  `LastUpdate` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `IsDeleted` tinyint(1) NOT NULL default '1',
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Name` (`Name`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `p_table`
+--
+
+INSERT INTO `p_table` (`ID`, `Name`, `Description`, `Price`, `Image`, `CreateDate`, `LastUpdate`, `IsDeleted`) VALUES
+(1, '11', '1', 1, 'bep12.jpg', '2009-11-24 11:16:51', '2009-11-24 11:28:48', 1),
+(2, '2', '2', 2, 'bep3.jpg', '2009-11-24 11:53:53', '2009-11-24 11:53:53', 1),
+(3, '3', '3', 3, 'bep10.jpg', '2009-11-24 16:42:26', '2009-11-24 16:42:26', 1),
+(4, 'sofa1', 'sofa1', 0, 'bep10.jpg', '2009-11-24 17:07:54', '2009-11-24 17:07:54', 1);

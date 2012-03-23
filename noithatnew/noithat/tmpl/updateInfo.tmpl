@@ -1,0 +1,48 @@
+<iframe id="C_004_05_frmPhoto_pop" name="C_004_05_frmPhoto_pop" height="0" width="0" frameborder="0"></iframe>
+<table>	
+		<tr>
+			<td></td>
+			<td style="text-align:;" id="C_004_05_td_Add_Photo">
+				<img id="C_004_05_imgUpload" src="{val MOD_DATA}{val pTable}/{val Image}"/>
+			</td>
+			
+		</tr>
+		<tr>
+			<td>Image:</td>
+			<td>
+					<form id="upload" name="upload" target="C_004_05_frmPhoto_pop" action="../admin/index.php?Content-Type=multipart/form-data&Content-Length=421&Connection=Keep-Alive&Cache-Control=no-cache" method="POST" enctype="multipart/form-data">
+						<input type="file" name="file" id="file"  class="C_004_05_Form"  onchange="document.upload.submit();"/>
+						<input type="hidden" id="C_004_05_txtPhotoName" name="C_004_05_txtPhotoName" value="{val Image}" />
+						<input type="hidden" id="p" name="p" value="popup" />
+					</form>
+			</td>
+			
+		</tr>
+		<tr>
+			<td>Name:</td>
+			<td>
+				<input type="text" id="name_Add" class="C_004_05_name_Add" value="{val Name}"></input>
+			</td>
+			
+		</tr>
+		<tr>
+			<td>Description:</td>
+			<td>
+				<textarea style="width:300px;"  id="description_Add" class="C_004_05_description_Add" >{val Description}</textarea>
+			</td>
+			
+		</tr>
+		<tr>
+			<td>Price:</td>
+			<td>
+				<input type="text" style="width:300px;" id="price_Add" class="C_004_05_price_Add" value="{val Price}"></input>
+			</td>
+			
+		</tr>
+		
+</table>
+<div class="C_004_05_Update5">
+	<img class="C_004_05_hand" src="{val MOD_IMG}exitBtn_uUpload.jpg" onclick="ArtistComposer.stl_CancelEdit();"/>
+	<img class="C_004_05_hand" src="{val MOD_IMG}updateBtn.gif" onclick="ArtistComposer.stl_Update();"/>
+</div>
+<div style="clear:both"></div>

@@ -1,0 +1,4 @@
+Sitemap: http://noithathuyphat.com/sitemap.xml
+User-agent: *
+Disallow: /noithat/admin
+Disallow: /noithat/facebook

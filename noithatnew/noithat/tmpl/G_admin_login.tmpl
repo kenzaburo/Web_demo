@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+		<script type="text/javascript" src="{val MOD_JS}prototype.js"></script>
+		<script type="text/javascript" src="{val MOD_JS}calendar.js"></script>
+        <script type="text/javascript" src="{val MOD_JS}calendar-vn.js"></script>
+        <script type="text/javascript" src="{val MOD_JS}calendar-setup.js"></script >
+		<script type="text/javascript" src="{val MOD_JS}C_004_05.js"></script>
+		<link type="text/css" rel="stylesheet" href="{val MOD_CSS}calendar-blue.css"></link>
+		<link type="text/css" rel="stylesheet" href="{val MOD_CSS}login_00101.css"></link>
+		<script id="{val MOD_CODE}" type="text/javascript">
+            var ArtistComposer = new ArtistComposer('{val imgTemp}');
+		</script>
+	</head>
+	<body>
+		<div id='header' style='height:50px;'>
+
+		</div>
+		<div style='clear:both;'></div>
+
+		<div align='center' id='body'>
+			<div class='login_form_00101'>
+				<div>
+				
+					<div class='login_form'>
+						<div class='login_title_00101'>
+								ĐĂNG NHẬP
+						</div>
+						<div class='login_error_00101'>
+								{val errmsg}
+						</div>
+						<div style='clear:both'></div>
+						
+						<div class='login_username_00101' >
+							Email:<br/>
+						<input type='text' class='login_textbox_00101' value="" name='email' id='email'/>
+						</div>					
+						<div class='login_password_00101'>
+							Mật khẩu:<br/>
+					<input type='password' value="" class='login_textbox_00101' name='password' id='password' />
+						</div>
+						
+						<div style='clear:both;'></div>
+						<div class='login_btnlogin_00101'>
+							<div style='color:#FF0000;text-decoration:underline;cursor:pointer;float:left;' onclick="" >Forgot Password?</div>
+							<input type='button' value='Login' onclick="ArtistComposer.login();" id='login' style='background:#FFAC47 url(../img/btn_bg.gif) repeat-x scroll 0 100%;border-color:#ED6502 #A04300 #A04300 #ED6502;border-width:1px;' />
+						</div>
+					</div>
+					<p class="legal">Cường Phát Huy content management system. Copyright © Cường Phát Huy 2009.</p>					
+				<div class="bottom"/>				
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>

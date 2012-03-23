@@ -1,0 +1,238 @@
+body{
+	margin : 0px;
+	font-size : 12px;
+	font-family:Arial;
+	padding : 0px;
+}
+.introduceHP{
+	color:#000000;
+	font-family:Arial;
+	font-size:14px;
+	background:#F7F7F7;
+}
+.U_mainContent_left{
+	width : 200px;
+	font-size : 11px;
+}
+.U_mainContent_right{ 
+	width : 170px;
+	*width : 168px;
+}
+.U_mainContent_center{
+	width : 640px;
+}
+.U_mainContent{
+	/*margin-top : 5px;*/
+}
+.U_floatleft{
+	float : left;
+}
+.U_hand{
+	cursor : pointer;
+}
+.title_menu_left {
+	background-color:#EFEFEF;
+	border-bottom:1px solid #FFFFFF;
+	color:#A42F2F;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	height:18px;
+	padding:6px 0 0 15px;
+	text-align  : left;
+}
+a.linkmenu:hover {
+	color:#A42F2F;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	display : block;
+}
+.linkmenu {
+	color:#333333;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	display : block;
+}
+.footer {
+	background: #E7E7E7;
+	background-repeat:repeat-x;
+	color:#636363;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-style:normal;
+	height:62px;
+	vertical-align:bottom;
+    text-align : left;
+}
+.title {
+	background-color:#9B8675;
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	height:23px;
+	padding:0 0 0 10px;
+	text-align:left;
+	vertical-align:middle;
+}
+.U_mainContent_left_top{
+	border: 1px solid #9B8675; 
+	background: rgb(251, 251, 251);
+}
+.hnav_img_left {
+	background-image:url(../img/menu_left_begin.gif);
+	background-position:-2px 0;
+	*background-position:-1px 0;
+	color:#FFFFFF;
+}
+.hnav_img {
+	background-image:url(../img/menu_left.gif);
+	color : #FFFFFF;
+}
+.hnav_img_redundance {
+	background-image:url(../img/menu_left.gif);
+	color : #FFFFFF;
+}
+td.hnav_img:hover {
+	background-image:url(../img/menu_over_left.gif);
+	color : #DFA641;
+}
+.hnav_img_right {
+	background-image:url(../img/menu_right_end.gif);
+	background-position: 0 0;
+	color:#FFFFFF;
+}
+.U_mainmenu_href{
+	display:block;
+	color : #FFFFFF;
+	text-decoration : none;
+}
+
+a.U_mainmenu_href:hover{
+	display:block;
+	color : #DFA641;
+	text-decoration : none;
+}
+.U_mainContent_left_middle{
+	margin-top : 5px;
+}
+a.video:link {
+	color:#771427;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	height:25px;
+	text-decoration:none;
+}
+a.video:hover {
+	color:#F6C896;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	height:25px;
+	text-decoration:none;
+}
+.text {
+	font-size:11px;
+	line-height:15px;
+}
+.U_detail_image{
+	border:1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+	float:left;
+	height:170px;
+	margin:4px 4px 0;
+	overflow:hidden;
+	padding:3px;
+	/**margin-left : 5px;*/
+	width:194px;
+	*width:201px;
+	_width:200px;
+	-width:200px;
+}
+div.U_detail_image:hover{
+	border:1px solid #aa23c4;
+    border-radius: 10px 10px 10px 10px;
+	float:left;
+	height:170px;
+	margin:4px 4px 0;
+	overflow:hidden;
+	padding:3px;
+	/**margin-left : 5px;*/
+	width:194px;
+	*width:201px;
+}
+.div_img_product {
+	background:#FFFFFF none repeat scroll 0 0;
+	border:3px solid #FFFFFF;
+	height:127px;
+	overflow:hidden;
+	text-align:center;
+	width:190px;
+}
+.pro_name {
+	color:#000000;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.All_content_second{
+	/*height : 550px;*/
+	background:#F7F7F7;
+	overflow : auto;
+}
+.User_All_content{
+	background-color: rgb(238, 238, 238);
+	width:630px;
+}
+.title_page {
+	background-color:#F9F9F9;
+	background-image:url(../img/bg_title.jpg);
+	color:#B72323;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	height:23px;
+	line-height:24px;
+	padding-left:22px;
+	text-align : left;
+}
+/*pagging of mr Buu*/
+.All_content_paging
+{
+    /*margin-bottom:3px;*/
+    margin-top:5px;
+    text-align:center;
+    width:480px;
+    padding-bottom : 3px;
+    *padding-top : 2px;
+}
+.All_content_paging a 
+{ 
+    background:transparent none repeat scroll 0 0;
+    border:1px solid #969696;
+    color:#7E7E7E;
+    font-family:verdana;
+    cursor:pointer;
+    font-size:10pt;
+    font-weight:normal;
+    padding:1px 3px;
+    text-decoration:none;
+}
+.All_content_paging span 
+{ 
+    background:#FFB500 none repeat scroll 0 0;
+    border:1px solid #969696;
+    color:#7E7E7E;
+    font-family:verdana;
+    font-size:10pt;
+    font-weight:normal;
+    padding:1px 3px;
+    text-decoration:none;
+}
+/*end pagging of mr buu*/

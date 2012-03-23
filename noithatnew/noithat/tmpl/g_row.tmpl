@@ -1,0 +1,41 @@
+<div class="C_004_05_row{val num} C_004_05_RBorder">
+    <div class="C_004_05_Fleft C_004_05_DeleteRow C_004_05_BLeft" title="{val titleD}">
+        <img id="G_Delete" src="../img/delete_btn.gif" onclick="{val displayD} ArtistComposer.stl_deleteUser('{val ID}', '{val IsDeleted}')" class="C_004_05_hand" style="{val displayD}"/>
+    </div>
+    <div class="C_004_05_Fleft C_004_05_EditRow C_004_05_BLeft" title="Chỉnh sửa">
+        <img id="G_Edit" src="../img/edit_btn.gif" onclick="{val displayE} ArtistComposer.stl_showUpdateUser('{val ID}', event)" class="C_004_05_hand" style="{val displayE}"/>
+    </div>
+    <div class="C_004_05_Fleft C_004_05_NoRow C_004_05_BLeft" >
+        {val STT}
+    </div>
+	
+    <div class="C_004_05_Fleft C_004_05_NameRow C_004_05_BLeft" title="{val Name}" >
+        <a id="C_004_05_Name{val STT}" >{val Name}</a>
+
+    </div>
+	<div class="C_004_05_Fleft C_004_05_DescriptionRow C_004_05_BLeft" title="{val Description}" >
+        <a>{val Description}</a>
+
+    </div>
+	<div class="C_004_05_Fleft C_004_05_PriceRow C_004_05_BLeft" title="{val Price}" >
+        <a>{val Price}</a>
+
+    </div>
+	
+	<div class='C_004_05_Fleft C_004_05_ImageRow C_004_05_BLeft'>
+		<img class='C_004_05_ArtistImage ' src='../data/{val pTable}/{val Image}' onmouseout='UnTip()' onmouseover="TagToTip('C_004_05_ImgTip{val ID}',CLICKCLOSE, true)"/>
+	</div>
+    <div class="C_004_05_Fleft C_004_05_CreateDateRow C_004_05_BLeft">
+        {val CreateDate}
+    </div>
+    <div class="C_004_05_Fleft C_004_05_LastUpdateRow C_004_05_BLeft">
+        {val LastUpdate}
+    </div>
+	<div class="C_004_05_Fleft C_004_05_DeleteRow C_004_05_BLeft">
+        {val IsDeleted}
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div id='C_004_05_ImgTip{val ID}' style='display:none;'>
+	<img src='../data/{val pTable}/{val Image}'/>
+</div>

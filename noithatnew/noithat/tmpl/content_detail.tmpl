@@ -1,0 +1,23 @@
+<div class="U_detail_image">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	  <tbody>
+	  <tr>
+		<td >
+			<div class="div_img_product" onmouseout="UnTip()" onmouseover="TagToTip('tooltipIMG_{val ID}',CLICKCLOSE, true)" >
+				<a title="{val alt_text}" class="preview" name="{val Path}{val Image}" >
+					<img border="0"  style="max-width: 200px; max-height: 200px;" src="{val Path}{val Image}" alt="{val alt_text}"/>
+				</a>
+			</div>
+		</td>
+	  </tr>
+	  <tr>
+		<td width="75%" align="center">
+		  <div style="padding-top: 2px; font-size:13px;">
+			<br/><strong><font style="color:#E59284;">{val Name}</font></strong>
+		  </div>
+		</td>
+	  </tr></tbody></table>
+</div>
+<div id="tooltipIMG_{val ID}" style="display:none;">
+	<img border="0" style="max-width: 400px; max-height: 400px;" src="{val Path}{val Image}" alt="{val alt_text}"/>
+</div>

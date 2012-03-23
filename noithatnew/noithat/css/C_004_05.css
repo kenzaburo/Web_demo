@@ -1,0 +1,279 @@
+
+.C_004_05_name_Add{
+    width : 100%;
+	height : 100%;
+    border : 0px solid #E5B4B9;
+}
+
+.C_004_05_IDH{
+    width : 60px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+.C_004_05_IDRow{
+    width : 60px;
+    height:22px;
+    text-align : left;
+}
+.C_004_05_Fleft{
+    float : left;
+}
+.C_004_05_hand{
+    cursor : pointer;
+}
+.C_004_05_DeleteH{
+    width : 25px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+
+.C_004_05_EditH{
+    width : 20px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+.C_004_05_NoH{
+    width : 25px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+.C_004_05_NameH{
+    width : 280px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+.C_004_05_DescriptionH{
+    width : 350px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+.C_004_05_PriceH{
+    width : 160px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+
+.C_004_05_ImageH{
+    width : 65px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+
+.C_004_05_CreateDateH{
+    width : 115px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+.C_004_05_LastUpdateH{
+    width : 150px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+
+.C_004_05_DeleteRow{
+    width : 25px;
+    height:22px;
+    text-align : center;
+   
+}
+
+.C_004_05_EditRow{
+    width : 20px;
+    height:22px;
+    text-align : center;
+}
+.C_004_05_NoRow{
+    width : 25px;
+    height:22px;
+    text-align : left;
+}
+
+.C_004_05_NameRow{
+    width : 280px;
+    height:22px;
+    text-align : left;
+    overflow-x:hidden;
+    white-space : nowrap;
+    text-indent : 1px;
+}
+.C_004_05_DescriptionRow{
+    width : 350px;
+    height:22px;
+    text-align : left;
+    overflow-x:hidden;
+    white-space : nowrap;
+    text-indent : 1px;
+}
+.C_004_05_PriceRow{
+    width : 160px;
+    height:22px;
+    text-align : left;
+    overflow-x:hidden;
+    white-space : nowrap;
+    text-indent : 1px;
+}
+
+.C_004_05_ImageRow{
+    width : 65px;
+    height:22px;
+    text-align : center;
+    overflow-x:hidden;
+    white-space : nowrap;
+    text-indent : 1px;
+}
+
+.C_004_05_CreateDateRow{
+    width : 115px;
+    height:22px;
+    text-align : center;
+}
+.C_004_05_LastUpdateRow{
+    width : 150px;
+    height:22px;
+    text-align : center;
+}
+
+.C_004_05_GroupHeader{
+    background-color:#45642b;
+    width : 1235px;
+    *width : 1217px;
+     margin-top : 5px;
+}
+.C_004_05_fieldset{
+    width : 1210px;
+    *margin-left:1px;
+}
+
+.C_004_05_RBorder{
+    border:1px solid #FFFFFF;
+}
+.C_004_05_BLeft{
+    border-left:1px solid #FFFFFF;
+    border-right:1px solid #FFFFFF;
+}
+.C_004_05_row0{
+    background-color:#EAF1DD;
+    width : 1235px;
+    *width : 1217px;
+}
+.C_004_05_row1{
+    background-color:#D7E4BC;
+    width : 1235px;
+    *width : 1217px;
+}
+
+.C_004_05_Maincontent{
+   /* height:220px;*/
+}
+.C_004_05_Update5{
+    /*width : 400px;*/
+    text-align : center;
+}
+.C_004_05_Update{
+    background-color : #CED1D1;
+    border : 1px solid #40484B;
+}
+
+.C_004_05_UpdateTxt{
+    width : 300px;
+    text-align : left;
+}
+/*pagging of mr Buu*/
+.C_004_05_paging
+{
+    margin-bottom:3px;
+    margin-top:5px;
+    text-align:center;
+    width:1235px;
+    *padding-bottom : 3px;
+    *padding-top : 3px;
+    
+}
+.C_004_05_paging a
+{
+    background:transparent none repeat scroll 0 0;
+    border:1px solid #969696;
+    color:#7E7E7E;
+    font-family:verdana;
+    cursor:pointer;
+    font-size:10pt;
+    font-weight:normal;
+    padding:1px 3px;
+    text-decoration:none;
+}
+.C_004_05_paging span
+{
+    background:#FFB500 none repeat scroll 0 0;
+    border:1px solid #969696;
+    color:#7E7E7E;
+    font-family:verdana;
+    font-size:10pt;
+    font-weight:normal;
+    padding:1px 3px;
+    text-decoration:none;
+}
+/*end paging*/
+
+.C_004_05_STxt{
+    height : 20px;
+    background-color : #dadada;
+    border : 0px solid #000000;
+}
+
+.C_004_05_MainSecond{
+    font-size : 12pt;
+}
+.C_004_05_ArtistImage{
+    width : 20px;
+    height : 18px;
+	
+}
+
+.C_004_05_Form{
+	margin-bottom : -15px;
+}
+.C_004_05_menu{
+	width : 70px;
+	background-color : #FF9900;
+	color : #FFFFFF;
+	border-left:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;
+}
+/*
+///////////////////////////relax//////////////////////
+*/
+.C_004_05_ContentH{
+	width : 575px;
+    height:22px;
+    text-align : center;
+    color : #FFFFFF;
+    font-weight:bold;
+}
+.C_004_05_ContentRow{
+	width : 575px;
+    height:22px;
+    text-align : left;
+    overflow-x:hidden;
+    white-space : nowrap;
+    text-indent : 1px;
+}

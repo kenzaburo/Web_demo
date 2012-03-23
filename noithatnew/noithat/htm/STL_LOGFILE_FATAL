@@ -1,0 +1,15 @@
+2009/11/23 11:23:49[FATAL].42187700 [/noithat/htm/] Log::fatal() [159] There is no template : C:\wamp\www\noithat/tmpl/G_Main.tmpl
+2009/11/23 11:25:07[FATAL].70312800 [/noithat/htm/] Log::fatal() [159] There is no template : C:\wamp\www\noithat/tmpl/G_Main.tmpl
+2009/11/23 11:25:46[FATAL].28125200 [/noithat/htm/] Log::fatal() [159] There is no template : C:\wamp\www\noithat/tmpl/G_Main.tmpl
+2009/11/23 11:32:17[FATAL].28125300 [/noithat/htm/] Log::fatal() [159] There is no template : C:\wamp\www\noithat/tmpl/G_Main.tmpl
+2009/11/23 11:33:10[FATAL].00000400 [/noithat/htm/] Log::fatal() [159] There is no template : C:\wamp\www\noithat/tmpl/G_Main.tmpl
+2009/11/23 11:33:38[FATAL].18750200 [/noithat/htm/] Log::fatal() [159] There is no template : C:\wamp\www\noithat/tmpl/G_Main.tmpl
+2009/11/23 11:34:20[FATAL].76562800 [/noithat/htm/] Log::fatal() [159] There is no template : C:\wamp\www\noithat/tmpl/G_Main.tmpl
+2009/11/23 13:32:03[FATAL].45312600 [/noithat/htm/] Log::fatal() [159] There is no template : http://localhost:8081/noithat/tmpl/G_Main.tmpl
+2009/11/23 13:32:32[FATAL].06250100 [/noithat/htm/] Log::fatal() [159] There is no template : http://localhost:8081/noithat/tmpl/G_Main.tmpl
+2009/11/23 13:32:50[FATAL].35937600 [/noithat/htm/] Log::fatal() [159] There is no template : http://localhost:8081/noithat/tmpl/G_Main.tmpl
+2009/11/23 13:33:05[FATAL].67187600 [/noithat/htm/] Log::fatal() [159] There is no template : http://localhost:8081/noithat/tmpl/G_Main.tmpl
+2009/11/23 13:33:17[FATAL].70312600 [/noithat/htm/] Log::fatal() [159] There is no template : http://localhost:8081/noithat/tmpl/G_Main.tmpl
+2009/11/23 13:33:49[FATAL].48437600 [/noithat/htm/] Log::fatal() [159] There is no template : http://localhost:8081/noithat/tmpl/G_Main.tmpl
+2009/11/23 13:34:03[FATAL].31250200 [/noithat/htm/] Log::fatal() [159] There is no template : http://localhost:8081/noithat/tmpl/G_Main.tmpl
+2009/11/23 13:34:39[FATAL].84375100 [/noithat/htm/] Log::fatal() [159] There is no template : http://localhost:8081/noithat/tmpl/G_Main.tmpl

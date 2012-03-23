@@ -1,0 +1,208 @@
+<html>
+<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+		<script type="text/javascript" src="{val MOD_JS}prototype.js"></script>
+		<script type="text/javascript" src="{val MOD_JS}calendar.js"></script>
+        <script type="text/javascript" src="{val MOD_JS}calendar-vn.js"></script>
+        <script type="text/javascript" src="{val MOD_JS}calendar-setup.js"></script >
+		<script type="text/javascript" src="{val MOD_JS}relax.js"></script>
+		<link type="text/css" rel="stylesheet" href="{val MOD_CSS}calendar-blue.css"></link>
+		<link type="text/css" rel="stylesheet" href="../css/C_004_05.css"></link>
+		<script id="{val MOD_CODE}" type="text/javascript">
+            var Orelax = new Orelax();
+		</script>
+
+</head>
+<body>
+<script type="text/javascript" src="{val MOD_JS}wz_tooltip.js"></script >
+<div align="center" class="">	
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu">
+		<a href="../admin/index.php?pTable=1" title="table">Bàn</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand  C_004_05_menu" title="sofa">
+		<a href="../admin/index.php?pTable=2">Sofa</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="marquetry">
+		<a href="../admin/index.php?pTable=3">Marquetry</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="door">
+		<a href="../admin/index.php?pTable=4">Cửa</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="chair">
+		<a href="../admin/index.php?pTable=5">Ghế</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="cabinet_television">
+		<a href="../admin/index.php?pTable=6">Tủ TVi</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="cabinet_shoe">
+		<a href="../admin/index.php?pTable=7">Tủ giày</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="cabinet_cooker">
+		<a href="../admin/index.php?pTable=8">Tủ bếp</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="cabinet_coat">
+		<a href="../admin/index.php?pTable=9">Tủ áo</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="bookshelf">
+		<a href="../admin/index.php?pTable=10">Kệ sách</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu" title="bestseller">
+		<a href="../admin/index.php?pTable=11">Bán chạy</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu " title="bed">
+		<a href="../admin/index.php?pTable=12">Giường</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu " title="what hot">
+		<a href="../admin/index.php?pTable=13">Ưa thích</a>
+	</div>
+	<div class="C_004_05_Fleft C_004_05_hand C_004_05_menu " title="relax">
+		<a href="../admin/adminrelax.php">Giải trí</a>
+	</div>
+	<div style="float: left; font-weight: bold;">
+		<span id="">Xin Chào :{val UserName}</span>
+	</div>
+	<div style="float: left;">
+		<span style="color: rgb(255, 0, 0); " class="C_004_05_hand" onclick="window.location = 'logout.php'">  [Logout]  </span>
+	</div>
+	<div style="clear : both;"></div>	
+</div>	
+<div id="C_004_05_MainSecond" class="C_004_05_MainSecond">
+    <div>
+    <fieldset class="C_004_05_fieldset">
+        <legend>Search:</legend>
+        <div>
+        <div class="C_004_05_Fleft">
+        <table cellspacing="2">
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text" id="Gname_search" class="C_004_05_STxt"></input>
+                </td>
+                <td>FromDate:</td>
+                <td>
+                    <div>
+                        <input id="GFromDate" class="C_004_05_STxt" type="text" maxlength="10" readonly="true" ></input>
+                        <img id="btnFromDate" title="birth date" align="absmiddle" src="{val MOD_IMG}img.gif" class="C_004_05_hand"/>
+                    </div>
+                </td>
+			
+            </tr>
+            <tr>
+                <td>Content:</td>
+                <td>
+                     <input type="text" id="Gcontent_search" class="C_004_05_STxt"></input>
+                </td>
+                <td>ToDate:</td>
+                <td>
+                    <div>
+                        <input id="GToDate" class="C_004_05_STxt" type="text" maxlength="10" readonly="true" ></input>
+                        <img id="btnToDate" title="birth date" align="absmiddle" class="C_004_05_hand" src="{val MOD_IMG}img.gif"/>
+                    </div>
+                </td>
+             
+            </tr>
+        </table>
+        </div>
+        <div class="C_004_05_Fleft">
+            <table cellspacing="4">
+                <tr>
+                    <td title="search">
+                        <img src="{val MOD_IMG}search_btn.gif" onclick="Orelax.stl_Search();" class="C_004_05_hand"></img>
+                    </td>
+                    <td title="reset">
+                         <img src="{val MOD_IMG}refresh_btn.gif" onclick="Orelax.stl_reset();" class="C_004_05_hand"></img>
+                    </td>
+					<td title="add new composer" style="{val displayA}">
+                         <img src="{val MOD_IMG}add_btn.gif" onclick="Orelax.stl_showAddNew(event);" class="C_004_05_hand"></img>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </fieldset>
+    </div>
+    <div id="C_004_05_GroupHeader" class="C_004_05_GroupHeader C_004_05_RBorder">
+        
+        <div class="C_004_05_Fleft C_004_05_DeleteH C_004_05_BLeft">
+			D
+        </div>
+        <div class="C_004_05_Fleft C_004_05_EditH C_004_05_BLeft">
+           E 
+        </div>
+        <div class="C_004_05_Fleft C_004_05_NoH C_004_05_BLeft">
+            No
+        </div>
+        <div class="C_004_05_Fleft C_004_05_NameH C_004_05_BLeft">
+            Name
+        </div>
+		<div class="C_004_05_Fleft C_004_05_ContentH C_004_05_BLeft">
+            Content
+        </div>
+        <div class="C_004_05_Fleft C_004_05_CreateDateH C_004_05_BLeft">
+            CreateDate
+        </div>
+		<div class="C_004_05_Fleft C_004_05_LastUpdateH C_004_05_BLeft">
+            LastUpdate
+        </div>
+		<div class="C_004_05_Fleft C_004_05_DeleteH C_004_05_BLeft">
+            De
+        </div>
+       
+        <div style="clear:both"></div>
+    </div>
+  
+   	<div id="C_004_05_Maincontent" class="C_004_05_Maincontent">
+       	{val content}
+   	</div>
+    <div style="clear:both"></div>
+	
+    <div id="C_004_05_paging" class="C_004_05_paging">
+        {val paging}
+    </div>
+    <div style="clear:both"></div>
+    <div id="C_004_05_Update" class="C_004_05_Update" style="position:absolute; display:none;">
+        
+    </div>
+   
+</div>
+<script id="{val MOD_CODE}" type="text/javascript">
+
+		Calendar.setup(
+					{
+						inputField  : "GFromDate",         // ID of the input field
+						ifFormat    : "%Y-%m-%d",    // the date format
+						button      : "btnFromDate",
+						showsTime   : true,          // ID of the button
+						weekNumbers :false,
+						showOthers  : true,
+						cache       : false,
+						step        : 1,
+						range       : [1940, 2020],
+						onClose:function(cal)
+						{
+							cal.hide();
+						}
+					}
+				);
+			Calendar.setup(
+					{
+						inputField  : "GToDate",         // ID of the input field
+						ifFormat    : "%Y-%m-%d",    // the date format
+						button      : "btnToDate",
+						showsTime   : true,          // ID of the button
+						weekNumbers :false,
+						showOthers  : true,
+						cache       : false,
+						date        : "05-06-2009",
+						range       : [1940, 2020],
+						step        : 1,
+						onClose:function(cal)
+						{
+							cal.hide();
+						}
+					}
+				);
+			
+		</script>
+</body>
+</html>

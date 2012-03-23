@@ -1,0 +1,76 @@
+/* trung.nguyen viet css cho form login*/
+.login_form_00101
+{
+	margin:170px auto;
+	padding-left:32px;
+	width:581px;
+}
+
+.login_form 
+{
+	background:transparent url(../img/login_box_bg.jpg) no-repeat scroll 0 0;
+	padding:27px 57px 35px;
+	text-align:left;
+}
+
+
+.login_title_00101
+{
+	font-size:16px ;
+	font-family:verdana arial;
+	font-weight:bold;
+	color:#000000;
+
+}
+.login_error_00101
+{
+	font-size:16px ;
+	font-family:verdana arial;
+	font-weight:bold;
+	color:#FF0000;
+	width:314px;	
+}
+
+.legal 
+{
+	background:transparent url(../img/login_box_legal_bg.gif) no-repeat scroll 0 0;
+	font-size:0.95em;
+	margin:0;
+	padding:8px 8px 5px;
+}
+
+.bottom 
+{
+	background:transparent url(../img/login_box_bottom.jpg) no-repeat scroll 0 0;
+	height:5px;
+	overflow:hidden;
+	width:581px;
+}
+
+.login_username_00101
+{
+	text-align:left;
+	float:left;
+}
+
+.login_password_00101
+{
+	text-align:left;	
+	float:right;	
+}
+
+.login_textbox_00101
+{
+	height:21px;
+	width:222px;
+	float:left;
+	margin-top:1px;
+}
+
+.login_btnlogin_00101
+{
+	margin-top:10px;
+	margin-bottom:10px;	
+	text-align:right;
+}
+/* trung.nguyen viet css cho form login*/
